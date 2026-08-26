@@ -48,9 +48,7 @@
       text-decoration: underline;
     }
 
-    /* =========================
-       HERO
-    ========================== */
+    /* HERO */
 
     .hero {
       background: linear-gradient(
@@ -98,9 +96,7 @@
       font-size: 14px;
     }
 
-    /* =========================
-       NAVIGATION
-    ========================== */
+    /* NAVIGATION */
 
     .nav {
       position: sticky;
@@ -132,9 +128,7 @@
       text-decoration: none;
     }
 
-    /* =========================
-       MAIN
-    ========================== */
+    /* MAIN */
 
     .container {
       max-width: 1050px;
@@ -171,9 +165,7 @@
       margin-bottom: 8px;
     }
 
-    /* =========================
-       ABSTRACT
-    ========================== */
+    /* ABSTRACT */
 
     .abstract {
       background: var(--white);
@@ -183,9 +175,7 @@
       box-shadow: 0 5px 20px rgba(0,0,0,0.05);
     }
 
-    /* =========================
-       QUESTION
-    ========================== */
+    /* QUESTION */
 
     .question-box {
       background: #eef2ff;
@@ -202,9 +192,7 @@
       margin-bottom: 8px;
     }
 
-    /* =========================
-       STAT CARDS
-    ========================== */
+    /* STAT CARDS */
 
     .stats {
       display: grid;
@@ -233,9 +221,7 @@
       margin-top: 5px;
     }
 
-    /* =========================
-       TABLE
-    ========================== */
+    /* TABLE */
 
     .table-wrapper {
       overflow-x: auto;
@@ -272,9 +258,7 @@
       font-weight: 800;
     }
 
-    /* =========================
-       PIPELINE
-    ========================== */
+    /* PIPELINE */
 
     .pipeline {
       background: #18181b;
@@ -288,9 +272,7 @@
       overflow-x: auto;
     }
 
-    /* =========================
-       FEATURES
-    ========================== */
+    /* FEATURES */
 
     .feature-list {
       display: grid;
@@ -308,9 +290,7 @@
       font-size: 14px;
     }
 
-    /* =========================
-       RESULT
-    ========================== */
+    /* RESULTS */
 
     .result-card {
       background: white;
@@ -349,9 +329,7 @@
       margin: 25px 0;
     }
 
-    /* =========================
-       ACTION CARDS
-    ========================== */
+    /* ACTION CARDS */
 
     .action {
       background: white;
@@ -368,9 +346,7 @@
       margin-bottom: 6px;
     }
 
-    /* =========================
-       CODE
-    ========================== */
+    /* CODE */
 
     code {
       background: #e4e4e7;
@@ -380,9 +356,7 @@
       font-size: 0.9em;
     }
 
-    /* =========================
-       FOOTER
-    ========================== */
+    /* FOOTER */
 
     footer {
       background: #18181b;
@@ -399,9 +373,7 @@
       color: #c7d2fe;
     }
 
-    /* =========================
-       RESPONSIVE
-    ========================== */
+    /* RESPONSIVE */
 
     @media (max-width: 800px) {
 
@@ -453,9 +425,7 @@
 
 <body>
 
-  <!-- =========================
-       HERO
-  ========================== -->
+  <!-- HERO -->
 
   <header class="hero">
 
@@ -483,9 +453,7 @@
   </header>
 
 
-  <!-- =========================
-       NAVIGATION
-  ========================== -->
+  <!-- NAVIGATION -->
 
   <nav class="nav">
 
@@ -509,9 +477,7 @@
   <main class="container">
 
 
-    <!-- =========================
-         ABSTRACT
-    ========================== -->
+    <!-- ABSTRACT -->
 
     <section id="abstract">
 
@@ -556,13 +522,11 @@
     </section>
 
 
-    <!-- =========================
-         PROBLEM
-    ========================== -->
+    <!-- PROBLEM -->
 
     <section id="problem">
 
-      <h2>1. Introduction / Problem Statement</h2>
+      <h2>Introduction / Problem Statement</h2>
 
       <p>
         SEO and editorial teams may have many content items that could
@@ -612,13 +576,11 @@
     </section>
 
 
-    <!-- =========================
-         DATA
-    ========================== -->
+    <!-- DATA -->
 
     <section id="data">
 
-      <h2>2. Data</h2>
+      <h2>Data</h2>
 
       <p>
         The modeling dataset contains
@@ -655,7 +617,6 @@
 
       </div>
 
-
       <h3>Key Performance Signals</h3>
 
       <div class="feature-list">
@@ -672,7 +633,6 @@
         <div class="feature">days_since_last_update</div>
 
       </div>
-
 
       <h3>Data Handling</h3>
 
@@ -696,14 +656,11 @@
     </section>
 
 
-    <!-- =========================
-         METHODOLOGY
-    ========================== -->
+    <!-- METHODOLOGY -->
 
     <section id="methodology">
 
-      <h2>3. Methodology</h2>
-
+      <h2>Methodology</h2>
 
       <h3>Workflow</h3>
 
@@ -726,7 +683,6 @@
         Ranked Recommendations
 
       </div>
-
 
       <h3>Proxy Target</h3>
 
@@ -753,11 +709,9 @@
         positive future outcome.
       </p>
 
-
       <h3>Final Model Features</h3>
 
       <ul>
-
         <li>impressions_90d</li>
         <li>clicks_90d</li>
         <li>ctr</li>
@@ -768,9 +722,7 @@
         <li>engaged_sessions_90d</li>
         <li>engagement_rate</li>
         <li>days_since_last_update</li>
-
       </ul>
-
 
       <h3>Baseline</h3>
 
@@ -798,7 +750,6 @@
         <code>days_since_last_update</code>.
       </p>
 
-
       <h3>Random Forest Model</h3>
 
       <p>
@@ -810,7 +761,6 @@
       <p>
         Missing numeric values were handled using median imputation.
       </p>
-
 
       <h3>Validation Design</h3>
 
@@ -824,7 +774,6 @@
         No client was shared between the training and test sets.
       </p>
 
-
       <h3>Evaluation Metric</h3>
 
       <p>
@@ -833,49 +782,40 @@
         that match the proxy refresh target.
       </p>
 
-
       <h3>Leakage Checks</h3>
 
       <ul>
-
         <li><code>trend_pct</code> was excluded from model features.</li>
         <li><code>client_id</code> was excluded.</li>
         <li><code>content_id</code> was excluded.</li>
         <li>Training and testing clients were separated.</li>
         <li>Preprocessing was performed without using test information.</li>
-
       </ul>
 
     </section>
 
 
-    <!-- =========================
-         RESULTS
-    ========================== -->
+    <!-- RESULTS -->
 
     <section id="results">
 
-      <h2>4. Results</h2>
+      <h2>Results</h2>
 
       <p>
-        The Random Forest was evaluated against the Week-4 baseline
-        using the same held-out client split and the same Precision@50
-        metric.
+        The Random Forest was evaluated against the baseline using the
+        same held-out client split and the same Precision@50 metric.
       </p>
-
 
       <div class="table-wrapper">
 
         <table>
 
           <thead>
-
             <tr>
               <th>Method</th>
               <th>Precision@50</th>
               <th>Percentage</th>
             </tr>
-
           </thead>
 
           <tbody>
@@ -898,7 +838,6 @@
 
       </div>
 
-
       <div class="result-card">
 
         <div>
@@ -915,15 +854,13 @@
 
       </div>
 
-
       <div class="success">
 
         <strong>Observed Result:</strong>
         The Random Forest produced a more precise top-50 ranking than
         the baseline on the held-out client evaluation.
-        
-      </div>
 
+      </div>
 
       <p>
         This result is an observed validation result for the available
@@ -934,24 +871,19 @@
     </section>
 
 
-    <!-- =========================
-         LIMITATIONS
-    ========================== -->
+    <!-- LIMITATIONS -->
 
     <section id="limitations">
 
-      <h2>5. Limitations & Honest Framing</h2>
-
+      <h2>Limitations & Honest Framing</h2>
 
       <h3>Proxy Target</h3>
 
       <p>
-        The target
-        <code>trend_pct &lt; -10</code>
-        represents an observed decline pattern rather than a direct
-        measurement of successful content refresh.
+        The target <code>trend_pct &lt; -10</code> represents an observed
+        decline pattern rather than a direct measurement of successful
+        content refresh.
       </p>
-
 
       <h3>No Causal Claim</h3>
 
@@ -961,7 +893,6 @@
         rankings, traffic, clicks, or engagement to increase.
       </p>
 
-
       <h3>Search Algorithm Interpretation</h3>
 
       <p>
@@ -970,7 +901,6 @@
         within the available content-performance data.
       </p>
 
-
       <h3>Generalization</h3>
 
       <p>
@@ -978,7 +908,6 @@
         Additional validation on future data and additional clients
         would be appropriate before operational use.
       </p>
-
 
       <div class="warning">
 
@@ -991,13 +920,11 @@
     </section>
 
 
-    <!-- =========================
-         RECOMMENDATIONS
-    ========================== -->
+    <!-- RECOMMENDATIONS -->
 
     <section id="recommendations">
 
-      <h2>6. Ranked Recommendations</h2>
+      <h2>Ranked Recommendations</h2>
 
       <p>
         The final system produces a ranked queue of
@@ -1009,7 +936,6 @@
         review based on the model score, confidence, reason codes, and
         associated performance signals.
       </p>
-
 
       <div class="action">
 
@@ -1024,7 +950,6 @@
 
       </div>
 
-
       <div class="action">
 
         <div class="action-title">
@@ -1037,7 +962,6 @@
         </p>
 
       </div>
-
 
       <div class="action">
 
@@ -1052,7 +976,6 @@
 
       </div>
 
-
       <div class="action">
 
         <div class="action-title">
@@ -1065,7 +988,6 @@
         </p>
 
       </div>
-
 
       <div class="action">
 
@@ -1080,7 +1002,6 @@
 
       </div>
 
-
       <div class="pipeline">
 
         Model Score
@@ -1094,20 +1015,17 @@
     </section>
 
 
-    <!-- =========================
-         REPRODUCIBILITY
-    ========================== -->
+    <!-- REPRODUCIBILITY -->
 
     <section id="reproducibility">
 
-      <h2>7. Reproducibility</h2>
+      <h2>Reproducibility</h2>
 
       <p>
         The project was developed as a repeatable machine-learning
         workflow. The repository contains the capstone notebook and
         generated outputs used during the analysis.
       </p>
-
 
       <div class="pipeline">
 
@@ -1134,14 +1052,12 @@
 
       </div>
 
-
       <p>
         The capstone notebook contains the research question, data
         preparation, target construction, modeling, validation,
         evaluation, ranked recommendations, artifacts, and final
         self-check.
       </p>
-
 
       <p>
         The final self-check passed all required capstone sections.
@@ -1150,13 +1066,11 @@
     </section>
 
 
-    <!-- =========================
-         ACKNOWLEDGMENTS
-    ========================== -->
+    <!-- ACKNOWLEDGMENTS -->
 
     <section id="acknowledgments">
 
-      <h2>8. Acknowledgments & Data Credit</h2>
+      <h2>Acknowledgments & Data Credit</h2>
 
       <p>
         This project was developed as part of a machine-learning
@@ -1181,20 +1095,18 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          Data source: FlyRank
+          Data source
         </a>
       </p>
 
     </section>
 
 
-    <!-- =========================
-         CONCLUSION
-    ========================== -->
+    <!-- CONCLUSION -->
 
     <section>
 
-      <h2>9. Conclusion</h2>
+      <h2>Conclusion</h2>
 
       <p>
         This project demonstrates how historical content-performance
@@ -1212,8 +1124,8 @@
 
       <p>
         The resulting system converts model predictions into a ranked
-        queue that can help editorial and SEO teams decide which content
-        items deserve attention first.
+        queue that can help editorial and SEO teams decide which
+        content items deserve attention first.
       </p>
 
       <p>
@@ -1224,13 +1136,10 @@
 
     </section>
 
-
   </main>
 
 
-  <!-- =========================
-       FOOTER
-  ========================== -->
+  <!-- FOOTER -->
 
   <footer>
 
@@ -1257,7 +1166,6 @@
     </p>
 
   </footer>
-
 
 </body>
 </html>
